@@ -12,3 +12,17 @@ services:
       HOSTNAME: 0.0.0.0
       PORT: 3000
     restart: unless-stopped
+    networks:
+      - kairo_network
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=kairo-dev_kairo_network"
+      - "traefik.http.routers.eifasoft.rule=Host(`eifasoft.com`) || Host(`www.eifasoft.com`)"
+      - "traefik.http.routers.eifasoft.entrypoints=websecure"
+      - "traefik.http.routers.eifasoft.tls.certresolver=letsencrypt"
+      - "traefik.http.services.eifasoft.loadbalancer.server.port=3000"
+
+networks:
+  kairo_network:
+    external: true
+    name: kairo-dev_kairo_network
