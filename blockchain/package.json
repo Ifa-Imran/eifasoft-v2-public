@@ -1,0 +1,18 @@
+{
+  "name": "eifasoft-contracts",
+  "version": "1.0.0",
+  "description": "EifaSoft BEP-20 Token Deployment",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:mainnet": "hardhat run scripts/deploy.ts --network bscMainnet",
+    "deploy:testnet": "hardhat run scripts/deploy.ts --network bscTestnet",
+    "verify": "hardhat verify --network bscMainnet"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0",
+    "dotenv": "^16.0.0"
+  }
+}

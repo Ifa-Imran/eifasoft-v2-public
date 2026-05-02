@@ -1,0 +1,793 @@
+{
+  "services": [
+    {
+      "id": "website-designing-and-development",
+      "name": "Website Designing and Development",
+      "slug": "website-designing-and-development-company",
+      "shortName": "Website Development",
+      "icon": "🌐",
+      "category": "web",
+      "description": "Custom website design and development services tailored to your business needs",
+      "features": [
+        "Responsive Design",
+        "SEO Optimized",
+        "Fast Loading Speed",
+        "Mobile-First Approach",
+        "CMS Integration",
+        "E-commerce Ready"
+      ],
+      "startingPrice": "₹14,999",
+      "deliveryTime": "2-4 weeks"
+    },
+    {
+      "id": "mobile-app-development",
+      "name": "Mobile App Development",
+      "slug": "mobile-app-development-company",
+      "shortName": "Mobile Apps",
+      "icon": "📱",
+      "category": "mobile",
+      "description": "Native and cross-platform mobile application development for iOS and Android",
+      "features": [
+        "iOS & Android Development",
+        "Cross-Platform Solutions",
+        "UI/UX Design",
+        "App Store Deployment",
+        "Push Notifications",
+        "Payment Integration"
+      ],
+      "startingPrice": "₹39,999",
+      "deliveryTime": "6-12 weeks"
+    },
+    {
+      "id": "software-development",
+      "name": "Software Development",
+      "slug": "software-development-company",
+      "shortName": "Custom Software",
+      "icon": "💻",
+      "category": "software",
+      "description": "Enterprise-grade custom software solutions for businesses of all sizes",
+      "features": [
+        "Custom Development",
+        "Cloud Solutions",
+        "API Integration",
+        "Database Design",
+        "Security & Compliance",
+        "Scalable Architecture"
+      ],
+      "startingPrice": "₹59,999",
+      "deliveryTime": "8-16 weeks"
+    },
+    {
+      "id": "blockchain-development",
+      "name": "Blockchain Development",
+      "slug": "blockchain-development-company",
+      "shortName": "Blockchain",
+      "icon": "⛓️",
+      "category": "blockchain",
+      "isNew": true,
+      "description": "Build secure, scalable, EVM-compatible blockchain solutions and smart contracts",
+      "features": [
+        "Smart Contract Development",
+        "EVM-Compatible Chains",
+        "Token Development",
+        "Blockchain Integration",
+        "Security Audits",
+        "Web3 Solutions"
+      ],
+      "startingPrice": "₹99,999",
+      "deliveryTime": "12-20 weeks"
+    },
+    {
+      "id": "dapp-development",
+      "name": "DApp Development",
+      "slug": "dapp-development-company",
+      "shortName": "DApps",
+      "icon": "🔷",
+      "category": "blockchain",
+      "isNew": true,
+      "description": "Full-stack decentralized applications with Solidity + React + Moralis integration",
+      "features": [
+        "Solidity Smart Contracts",
+        "React Frontend",
+        "Moralis Integration",
+        "IPFS Storage",
+        "Wallet Integration",
+        "DeFi Protocols"
+      ],
+      "startingPrice": "₹1,49,999",
+      "deliveryTime": "14-24 weeks"
+    },
+    {
+      "id": "crypto-exchange-development",
+      "name": "Crypto Exchange Development",
+      "slug": "crypto-currency-exchange-development-company",
+      "shortName": "Crypto Exchange",
+      "icon": "💱",
+      "category": "blockchain",
+      "isNew": true,
+      "description": "Complete cryptocurrency exchange development with CEX, DEX, and hybrid solutions",
+      "features": [
+        "CEX/DEX/Hybrid Options",
+        "High-Performance Engine",
+        "Multi-Currency Support",
+        "KYC/AML Compliance",
+        "Liquidity Management",
+        "Security Audits"
+      ],
+      "startingPrice": "₹25,00,000",
+      "deliveryTime": "16-24 weeks"
+    },
+    {
+      "id": "cryptocurrency-mlm",
+      "name": "Cryptocurrency MLM Software",
+      "slug": "cryptocurrency-mlm-software",
+      "shortName": "Crypto MLM",
+      "icon": "🪙",
+      "category": "blockchain",
+      "isNew": true,
+      "description": "DeFi-powered crypto MLM with yield farming, staking rewards, and liquidity mining",
+      "features": [
+        "DeFi Staking Integration",
+        "Yield Farming Rewards",
+        "Liquidity Mining Pools",
+        "Smart Contract Automation",
+        "Multi-Level Commissions",
+        "Wallet Integration"
+      ],
+      "startingPrice": "₹8,00,000",
+      "deliveryTime": "12-18 weeks"
+    },
+    {
+      "id": "smart-contract-mlm",
+      "name": "Smart Contract MLM Software",
+      "slug": "smart-contract-mlm-software",
+      "shortName": "Smart Contract MLM",
+      "icon": "📜",
+      "category": "blockchain",
+      "isNew": true,
+      "description": "Blockchain-based MLM with Layer 2 scaling, gas optimization, and formal verification",
+      "features": [
+        "Layer 2 Scaling (Arbitrum/Optimism)",
+        "Gas Optimization",
+        "Formal Verification",
+        "Automated Payouts",
+        "Multi-Sig Security",
+        "Audit Reports"
+      ],
+      "startingPrice": "₹10,00,000",
+      "deliveryTime": "14-20 weeks"
+    },
+    {
+      "id": "web3-development",
+      "name": "Web3 Development Services",
+      "slug": "web3-development-services",
+      "shortName": "Web3 Development",
+      "icon": "🕸️",
+      "category": "blockchain",
+      "isNew": true,
+      "description": "Full-stack Web3 development including DeFi, NFTs, DAOs, and cross-chain solutions",
+      "features": [
+        "DeFi Protocol Development",
+        "NFT Marketplace & Tokens",
+        "DAO Governance Systems",
+        "Cross-Chain Integration",
+        "Smart Contract Audits",
+        "Web3 Frontend (React/Vue)"
+      ],
+      "startingPrice": "₹5,00,000",
+      "deliveryTime": "10-20 weeks"
+    },
+    {
+      "id": "crypto-wallet-development",
+      "name": "Crypto Wallet Development",
+      "slug": "crypto-wallet-development",
+      "shortName": "Crypto Wallet",
+      "icon": "👛",
+      "category": "blockchain",
+      "isNew": true,
+      "description": "Non-custodial, custodial, and smart contract wallets with multi-chain support",
+      "features": [
+        "Non-Custodial & Custodial",
+        "Smart Contract Wallets (ERC-4337)",
+        "50+ Blockchain Support",
+        "Fiat On-Ramp Integration",
+        "Biometric Authentication",
+        "Multi-Signature Security"
+      ],
+      "startingPrice": "₹6,00,000",
+      "deliveryTime": "10-16 weeks"
+    },
+    {
+      "id": "flutter-app-development",
+      "name": "Flutter App Development",
+      "slug": "flutter-app-development-company",
+      "shortName": "Flutter Apps",
+      "icon": "🦋",
+      "category": "mobile",
+      "isNew": true,
+      "description": "Single-codebase iOS/Android apps built with Flutter in 12 weeks",
+      "features": [
+        "Single Codebase",
+        "Fast Development",
+        "Native Performance",
+        "Beautiful UI",
+        "Hot Reload",
+        "Cross-Platform"
+      ],
+      "startingPrice": "₹34,999",
+      "deliveryTime": "8-12 weeks"
+    },
+    {
+      "id": "mlm-software-development",
+      "name": "MLM Software Development",
+      "slug": "mlm-software-development-company",
+      "shortName": "MLM Software",
+      "icon": "📊",
+      "category": "enterprise",
+      "description": "Comprehensive multi-level marketing software with various compensation plans",
+      "features": [
+        "Multiple MLM Plans",
+        "Real-time Analytics",
+        "Payment Gateway",
+        "Member Dashboard",
+        "Commission Management",
+        "Mobile App Support"
+      ],
+      "startingPrice": "₹49,999",
+      "deliveryTime": "10-16 weeks"
+    },
+    {
+      "id": "digital-marketing",
+      "name": "Digital Marketing Services",
+      "slug": "digital-marketing-services",
+      "shortName": "Digital Marketing",
+      "icon": "📈",
+      "category": "marketing",
+      "description": "Complete digital marketing solutions to grow your online presence",
+      "features": [
+        "SEO Optimization",
+        "Social Media Marketing",
+        "Content Marketing",
+        "PPC Campaigns",
+        "Email Marketing",
+        "Analytics & Reporting"
+      ],
+      "startingPrice": "₹9,999/month",
+      "deliveryTime": "Ongoing"
+    },
+    {
+      "id": "ecommerce-development",
+      "name": "E-Commerce Development",
+      "slug": "e-commerce-development-company",
+      "shortName": "E-Commerce",
+      "icon": "🛒",
+      "category": "web",
+      "description": "Full-featured online store development with payment and inventory management",
+      "features": [
+        "Shopping Cart",
+        "Payment Gateway",
+        "Inventory Management",
+        "Order Tracking",
+        "Multi-vendor Support",
+        "Mobile Commerce"
+      ],
+      "startingPrice": "₹29,999",
+      "deliveryTime": "6-10 weeks"
+    },
+    {
+      "id": "ai-services",
+      "name": "AI Services",
+      "slug": "ai-services",
+      "shortName": "AI Services",
+      "icon": "🤖",
+      "category": "emerging-tech",
+      "isNew": true,
+      "description": "Comprehensive artificial intelligence solutions for modern businesses",
+      "features": [
+        "Machine Learning Models",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Predictive Analytics",
+        "AI Strategy Consulting",
+        "Automation Solutions"
+      ],
+      "startingPrice": "₹1,49,999",
+      "deliveryTime": "10-16 weeks"
+    },
+    {
+      "id": "custom-ai-models",
+      "name": "Custom AI Models",
+      "slug": "custom-ai-models",
+      "shortName": "Custom AI",
+      "icon": "🧠",
+      "category": "emerging-tech",
+      "isNew": true,
+      "description": "Tailored AI model development for specific business use cases",
+      "features": [
+        "Custom Model Architecture",
+        "Training & Fine-tuning",
+        "Data Preparation",
+        "Model Optimization",
+        "Deployment & Monitoring",
+        "Continuous Improvement"
+      ],
+      "startingPrice": "₹2,49,999",
+      "deliveryTime": "12-20 weeks"
+    },
+    {
+      "id": "ai-agent-ecosystems",
+      "name": "AI Agent Ecosystems",
+      "slug": "ai-agent-ecosystems",
+      "shortName": "AI Agents",
+      "icon": "🤖",
+      "category": "emerging-tech",
+      "isNew": true,
+      "description": "Autonomous AI agent systems for complex task automation",
+      "features": [
+        "Multi-Agent Systems",
+        "Task Automation",
+        "Decision Making AI",
+        "Integration Framework",
+        "Real-time Processing",
+        "Scalable Architecture"
+      ],
+      "startingPrice": "₹2,99,999",
+      "deliveryTime": "14-22 weeks"
+    },
+    {
+      "id": "generative-ai-solutions",
+      "name": "Generative AI Solutions",
+      "slug": "generative-ai-solutions",
+      "shortName": "Generative AI",
+      "icon": "✨",
+      "category": "emerging-tech",
+      "isNew": true,
+      "description": "Custom GPT integration, LLM fine-tuning, AI chatbots, content generation, and RAG systems",
+      "features": [
+        "GPT-4 Integration",
+        "Custom LLM Training",
+        "AI Chatbots",
+        "RAG Implementation",
+        "Content Generation",
+        "Multi-language Support"
+      ],
+      "startingPrice": "₹2,99,999",
+      "deliveryTime": "6-14 weeks"
+    },
+    {
+      "id": "ai-consulting",
+      "name": "AI Consulting & Strategy",
+      "slug": "ai-consulting",
+      "shortName": "AI Consulting",
+      "icon": "💡",
+      "category": "emerging-tech",
+      "isNew": true,
+      "description": "AI strategy development, maturity assessment, use case identification, and implementation guidance",
+      "features": [
+        "AI Strategy Roadmap",
+        "Maturity Assessment",
+        "Use Case Identification",
+        "Vendor Selection",
+        "AI Governance",
+        "Implementation Support"
+      ],
+      "startingPrice": "₹1,49,999",
+      "deliveryTime": "2-8 weeks"
+    },
+    {
+      "id": "intelligent-automation",
+      "name": "Intelligent Automation",
+      "slug": "intelligent-automation",
+      "shortName": "RPA + AI",
+      "icon": "⚡",
+      "category": "emerging-tech",
+      "isNew": true,
+      "description": "RPA combined with AI for end-to-end process automation and intelligent document processing",
+      "features": [
+        "Cognitive RPA Bots",
+        "Document Processing",
+        "Workflow Automation",
+        "Process Mining",
+        "Exception Handling",
+        "Analytics Dashboard"
+      ],
+      "startingPrice": "₹2,49,999",
+      "deliveryTime": "6-14 weeks"
+    },
+    {
+      "id": "mlops-services",
+      "name": "MLOps & AI Infrastructure",
+      "slug": "mlops-services",
+      "shortName": "MLOps",
+      "icon": "🔄",
+      "category": "emerging-tech",
+      "isNew": true,
+      "description": "ML pipeline automation, model deployment, monitoring, and AI infrastructure setup",
+      "features": [
+        "ML Pipelines",
+        "Model Deployment",
+        "Model Monitoring",
+        "Feature Store",
+        "ML Governance",
+        "Cloud ML Platforms"
+      ],
+      "startingPrice": "₹3,99,999",
+      "deliveryTime": "6-16 weeks"
+    },
+    {
+      "id": "nlp-solutions",
+      "name": "NLP Solutions",
+      "slug": "nlp-solutions",
+      "shortName": "NLP",
+      "icon": "💬",
+      "category": "emerging-tech",
+      "isNew": true,
+      "description": "Natural language processing including chatbots, sentiment analysis, and document understanding",
+      "features": [
+        "Chatbot Development",
+        "Sentiment Analysis",
+        "Document Processing",
+        "Text Classification",
+        "Named Entity Recognition",
+        "Language Translation"
+      ],
+      "startingPrice": "₹1,99,999",
+      "deliveryTime": "4-12 weeks"
+    },
+    {
+      "id": "computer-vision",
+      "name": "Computer Vision Solutions",
+      "slug": "computer-vision",
+      "shortName": "Computer Vision",
+      "icon": "👁️",
+      "category": "emerging-tech",
+      "isNew": true,
+      "description": "Object detection, image classification, OCR, facial recognition, and quality inspection",
+      "features": [
+        "Object Detection",
+        "Image Classification",
+        "OCR & Document AI",
+        "Facial Recognition",
+        "Quality Inspection",
+        "Edge Deployment"
+      ],
+      "startingPrice": "₹2,49,999",
+      "deliveryTime": "6-16 weeks"
+    },
+    {
+      "id": "predictive-analytics",
+      "name": "Predictive Analytics",
+      "slug": "predictive-analytics",
+      "shortName": "Predictive Analytics",
+      "icon": "📊",
+      "category": "emerging-tech",
+      "isNew": true,
+      "description": "Demand forecasting, churn prediction, risk modeling, and business intelligence solutions",
+      "features": [
+        "Demand Forecasting",
+        "Churn Prediction",
+        "Risk Modeling",
+        "Sales Forecasting",
+        "Predictive Maintenance",
+        "Customer Analytics"
+      ],
+      "startingPrice": "₹2,49,999",
+      "deliveryTime": "6-14 weeks"
+    },
+    {
+      "id": "accounting-software",
+      "name": "Accounting Software",
+      "slug": "accounting-software",
+      "shortName": "Accounting Software",
+      "icon": "💰",
+      "category": "enterprise",
+      "description": "Complete accounting and financial management software for businesses",
+      "features": [
+        "General Ledger",
+        "Accounts Payable/Receivable",
+        "GST Compliance",
+        "Financial Reporting",
+        "Tax Calculation",
+        "Bank Reconciliation"
+      ],
+      "startingPrice": "₹59,999",
+      "deliveryTime": "8-14 weeks"
+    },
+    {
+      "id": "coaching-institute-management-software",
+      "name": "Coaching Institute Management Software",
+      "slug": "coaching-institute-management-software",
+      "shortName": "Coaching ERP",
+      "icon": "📚",
+      "category": "enterprise",
+      "description": "Comprehensive ERP solution for coaching institutes and educational centers",
+      "features": [
+        "Student Management",
+        "Batch Scheduling",
+        "Fee Collection",
+        "Attendance Tracking",
+        "Online Tests",
+        "Parent Portal"
+      ],
+      "startingPrice": "₹44,999",
+      "deliveryTime": "6-12 weeks"
+    },
+    {
+      "id": "hospital-management-software",
+      "name": "Hospital Management Software",
+      "slug": "hospital-management-software",
+      "shortName": "Hospital HMS",
+      "icon": "🏥",
+      "category": "enterprise",
+      "description": "Complete hospital management system with patient care and administrative modules",
+      "features": [
+        "Patient Records (EMR)",
+        "Appointment Scheduling",
+        "Billing & Insurance",
+        "Pharmacy Management",
+        "Lab Integration",
+        "Inventory Control"
+      ],
+      "startingPrice": "₹99,999",
+      "deliveryTime": "12-20 weeks"
+    },
+    {
+      "id": "api-development-services",
+      "name": "API Development Services",
+      "slug": "api-development-services",
+      "shortName": "API Development",
+      "icon": "🔌",
+      "category": "software",
+      "description": "RESTful and GraphQL API design, development, and integration services",
+      "features": [
+        "RESTful API Design",
+        "GraphQL Implementation",
+        "API Documentation",
+        "Security & Authentication",
+        "Third-party Integration",
+        "API Gateway Setup"
+      ],
+      "startingPrice": "₹39,999",
+      "deliveryTime": "4-8 weeks"
+    },
+    {
+      "id": "nodejs-development-services",
+      "name": "Node.js Development Services",
+      "slug": "nodejs-development-services",
+      "shortName": "Node.js Development",
+      "icon": "🟢",
+      "category": "web",
+      "isNew": true,
+      "description": "Scalable real-time web applications, APIs, and microservices built with Node.js, Express, NestJS, and Socket.io",
+      "features": [
+        "Real-Time Applications",
+        "REST/GraphQL APIs",
+        "Microservices Architecture",
+        "Event-Driven Systems",
+        "MongoDB/PostgreSQL",
+        "Cloud Deployment"
+      ],
+      "startingPrice": "₹1,50,000",
+      "deliveryTime": "6-14 weeks"
+    },
+    {
+      "id": "react-native-development-services",
+      "name": "React Native Development Services",
+      "slug": "react-native-development-services",
+      "shortName": "React Native Apps",
+      "icon": "⚛️",
+      "category": "mobile",
+      "isNew": true,
+      "description": "Cross-platform mobile applications for iOS and Android using React Native with native performance",
+      "features": [
+        "iOS & Android Apps",
+        "Native Performance",
+        "Hot Reload",
+        "Third-party Integrations",
+        "App Store Deployment",
+        "Expo Support"
+      ],
+      "startingPrice": "₹2,00,000",
+      "deliveryTime": "8-16 weeks"
+    },
+    {
+      "id": "python-development-services",
+      "name": "Python Development Services",
+      "slug": "python-development-services",
+      "shortName": "Python Development",
+      "icon": "🐍",
+      "category": "software",
+      "isNew": true,
+      "description": "Web applications, AI/ML solutions, data science, and automation built with Python, Django, Flask, and FastAPI",
+      "features": [
+        "Django/Flask/FastAPI",
+        "AI/ML Integration",
+        "Data Science Solutions",
+        "REST APIs",
+        "Database Design",
+        "Cloud Deployment"
+      ],
+      "startingPrice": "₹1,20,000",
+      "deliveryTime": "6-14 weeks"
+    },
+    {
+      "id": "dotnet-development-services",
+      "name": ".NET Development Services",
+      "slug": "dotnet-development-services",
+      "shortName": ".NET Development",
+      "icon": "🔷",
+      "category": "enterprise",
+      "isNew": true,
+      "description": "Enterprise-grade web and desktop applications using ASP.NET Core, Blazor, C#, and Azure cloud",
+      "features": [
+        "ASP.NET Core Web Apps",
+        "Blazor Development",
+        "C# Desktop Applications",
+        "Azure Cloud Integration",
+        "Entity Framework",
+        "SQL Server Database"
+      ],
+      "startingPrice": "₹1,50,000",
+      "deliveryTime": "8-18 weeks"
+    },
+    {
+      "id": "php-laravel-development-services",
+      "name": "PHP/Laravel Development Services",
+      "slug": "php-laravel-development-services",
+      "shortName": "PHP/Laravel",
+      "icon": "❤️",
+      "category": "web",
+      "isNew": true,
+      "description": "Modern web applications, SaaS platforms, and e-commerce solutions using Laravel 11, Vue.js, and React",
+      "features": [
+        "Laravel 11/Symfony",
+        "SaaS Platforms",
+        "E-Commerce Solutions",
+        "Vue.js/React Frontend",
+        "MySQL/PostgreSQL",
+        "Payment Integration"
+      ],
+      "startingPrice": "₹1,00,000",
+      "deliveryTime": "5-12 weeks"
+    },
+    {
+      "id": "mern-stack-development-services",
+      "name": "MERN Stack Development Services",
+      "slug": "mern-stack-development-services",
+      "shortName": "MERN Stack",
+      "icon": "⚡",
+      "category": "web",
+      "isNew": true,
+      "description": "Full-stack JavaScript applications using MongoDB, Express.js, React, Node.js with TypeScript support",
+      "features": [
+        "React Frontend",
+        "Node.js Backend",
+        "MongoDB Database",
+        "Express Framework",
+        "TypeScript Support",
+        "Real-time Features"
+      ],
+      "startingPrice": "₹1,50,000",
+      "deliveryTime": "6-14 weeks"
+    },
+    {
+      "id": "devops-cloud-services",
+      "name": "DevOps & Cloud Services",
+      "slug": "devops-cloud-services",
+      "shortName": "DevOps & Cloud",
+      "icon": "☁️",
+      "category": "infrastructure",
+      "description": "Cloud infrastructure setup, CI/CD pipelines, and DevOps automation",
+      "features": [
+        "Cloud Migration",
+        "CI/CD Pipeline Setup",
+        "Container Orchestration",
+        "Infrastructure as Code",
+        "Monitoring & Logging",
+        "Security Hardening"
+      ],
+      "startingPrice": "₹79,999",
+      "deliveryTime": "6-12 weeks"
+    },
+    {
+      "id": "it-consulting",
+      "name": "IT Consulting",
+      "slug": "it-consulting",
+      "shortName": "IT Consulting",
+      "icon": "💡",
+      "category": "consulting",
+      "description": "Strategic IT consulting to optimize technology investments and digital transformation",
+      "features": [
+        "Technology Assessment",
+        "Digital Strategy",
+        "Architecture Review",
+        "Vendor Selection",
+        "Cost Optimization",
+        "Risk Management"
+      ],
+      "startingPrice": "₹29,999",
+      "deliveryTime": "2-6 weeks"
+    },
+    {
+      "id": "software-maintenance-support",
+      "name": "Software Maintenance & Support",
+      "slug": "software-maintenance-support",
+      "shortName": "Maintenance & Support",
+      "icon": "🔧",
+      "category": "support",
+      "description": "Ongoing software maintenance, updates, and 24/7 technical support",
+      "features": [
+        "Bug Fixes",
+        "Performance Optimization",
+        "Security Updates",
+        "Feature Enhancements",
+        "24/7 Support",
+        "SLA Guarantee"
+      ],
+      "startingPrice": "₹14,999/month",
+      "deliveryTime": "Ongoing"
+    },
+    {
+      "id": "nft-marketplace-development",
+      "name": "NFT Marketplace Development",
+      "slug": "nft-marketplace-development",
+      "shortName": "NFT Marketplace",
+      "icon": "🎨",
+      "category": "blockchain",
+      "isNew": true,
+      "description": "Custom NFT marketplace with minting, auctions, IPFS storage, royalties, and multi-chain support",
+      "features": [
+        "NFT Minting Platform",
+        "Buy/Sell/Auction System",
+        "IPFS & Arweave Storage",
+        "Creator Royalties (EIP-2981)",
+        "Multi-chain Support",
+        "Collection Management"
+      ],
+      "startingPrice": "₹4,00,000",
+      "deliveryTime": "10-20 weeks"
+    },
+    {
+      "id": "school-erp-software",
+      "name": "School ERP Software",
+      "slug": "school-erp-software",
+      "shortName": "School ERP",
+      "icon": "🏫",
+      "category": "enterprise",
+      "isNew": true,
+      "description": "Complete school management system with 25+ modules for student, academic, fee, and administrative management",
+      "features": [
+        "Student Information System",
+        "Fee & Financial Management",
+        "Attendance Management",
+        "Examination System",
+        "Learning Management (LMS)",
+        "Parent & Teacher Portals",
+        "Mobile Apps",
+        "Transportation & Hostel"
+      ],
+      "startingPrice": "₹1,99,999",
+      "deliveryTime": "8-16 weeks"
+    },
+    {
+      "id": "ai-voice-call-center",
+      "name": "RapidX AI Voice Call Center",
+      "slug": "rapidx-ai-call-center",
+      "shortName": "AI Call Center",
+      "icon": "📞",
+      "category": "emerging-tech",
+      "isNew": true,
+      "description": "India's most advanced AI-powered outbound call center — multilingual, 24/7, 91% cheaper than manual agents. Powered by LiveKit, Sarvam AI, and Groq LLM.",
+      "features": [
+        "10 Indian Languages",
+        "24/7 Auto-Calling",
+        "Smart Calendar Booking",
+        "Telegram/WhatsApp Alerts",
+        "Real-Time Analytics Dashboard",
+        "Vobiz SIP Ready"
+      ],
+      "startingPrice": "₹49,999/month",
+      "deliveryTime": "3–4 weeks"
+    }
+  ]
+}

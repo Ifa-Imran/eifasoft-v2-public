@@ -1,0 +1,13 @@
+node_modules
+.next
+.git
+.env
+.env.local
+.env.*
+*.md
+*.ps1
+*.bat
+node_modules
+.git
+.next
+.cache

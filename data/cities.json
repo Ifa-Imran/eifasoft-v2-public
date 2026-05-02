@@ -1,0 +1,805 @@
+{
+  "cities": [
+    {
+      "name": "Moradabad",
+      "slug": "moradabad",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 28.8389,
+        "longitude": 78.7378
+      },
+      "population": "889810",
+      "description": "Known as Pital Nagri (Brass City), Moradabad is a major industrial and commercial hub in Uttar Pradesh."
+    },
+    {
+      "name": "Aligarh",
+      "slug": "aligarh",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 27.8974,
+        "longitude": 78.0880
+      },
+      "population": "874408",
+      "description": "Famous for Aligarh Muslim University and lock manufacturing industry."
+    },
+    {
+      "name": "Bareilly",
+      "slug": "bareilly",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 28.3670,
+        "longitude": 79.4304
+      },
+      "population": "903668",
+      "description": "Major commercial center in Rohilkhand region, known for furniture and zari work."
+    },
+    {
+      "name": "Meerut",
+      "slug": "meerut",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 28.9845,
+        "longitude": 77.7064
+      },
+      "population": "1305429",
+      "description": "Ancient city with rich history, known for sports goods and scissors manufacturing."
+    },
+    {
+      "name": "Ghaziabad",
+      "slug": "ghaziabad",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 28.6692,
+        "longitude": 77.4538
+      },
+      "population": "1648643",
+      "description": "Part of National Capital Region (NCR), a major industrial and IT hub."
+    },
+    {
+      "name": "Kanpur",
+      "slug": "kanpur",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 26.4499,
+        "longitude": 80.3319
+      },
+      "population": "2701324",
+      "description": "Industrial capital of Uttar Pradesh, known as Manchester of the East."
+    },
+   
+    {
+      "name": "Gorakhpur",
+      "slug": "gorakhpur",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 26.7606,
+        "longitude": 83.3732
+      },
+      "population": "673446",
+      "description": "Important religious and administrative center in eastern Uttar Pradesh."
+    },
+    {
+      "name": "Ayodhya",
+      "slug": "ayodhya",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 26.7922,
+        "longitude": 82.1998
+      },
+      "population": "55890",
+      "description": "Ancient pilgrimage city and birthplace of Lord Rama, major spiritual destination."
+    },
+   
+    {
+      "name": "Lucknow",
+      "slug": "lucknow",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 26.8467,
+        "longitude": 80.9462
+      },
+      "population": "2817105",
+      "description": "Capital of Uttar Pradesh, known for Nawabi culture, cuisine, and IT sector growth."
+    },
+    {
+      "name": "Allahabad",
+      "slug": "allahabad",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 25.4358,
+        "longitude": 81.8463
+      },
+      "population": "1117094",
+      "description": "Now called Prayagraj, famous for Triveni Sangam and Kumbh Mela."
+    },
+    {
+      "name": "Rampur",
+      "slug": "rampur",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 28.8154,
+        "longitude": 79.0250
+      },
+      "population": "325248",
+      "description": "Known for Rampuri knives and rich Nawabi heritage."
+    },
+    {
+      "name": "Bhopal",
+      "slug": "bhopal",
+      "state": "Madhya Pradesh",
+      "coordinates": {
+        "latitude": 23.2599,
+        "longitude": 77.4126
+      },
+      "population": "1798218",
+      "description": "Capital of Madhya Pradesh, city of lakes with rich history and culture."
+    },
+    {
+      "name": "Jhansi",
+      "slug": "jhansi",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 25.4484,
+        "longitude": 78.5685
+      },
+      "population": "507293",
+      "description": "Gateway to Bundelkhand, famous for Rani Laxmibai and historic fort."
+    },
+    {
+      "name": "Surat",
+      "slug": "surat",
+      "state": "Gujarat",
+      "coordinates": {
+        "latitude": 21.1702,
+        "longitude": 72.8311
+      },
+      "population": "6081322",
+      "description": "Diamond city and major textile hub in Gujarat, known for its entrepreneurial culture."
+    },
+    {
+      "name": "Chandigarh",
+      "slug": "chandigarh",
+      "state": "Chandigarh",
+      "coordinates": {
+        "latitude": 30.7333,
+        "longitude": 76.7794
+      },
+      "population": "1055450",
+      "description": "Planned city and capital of Punjab and Haryana, known for modern architecture."
+    },
+    {
+      "name": "Dehradun",
+      "slug": "dehradun",
+      "state": "Uttarakhand",
+      "coordinates": {
+        "latitude": 30.3165,
+        "longitude": 78.0322
+      },
+      "population": "714223",
+      "description": "Capital of Uttarakhand, education hub in Himalayan foothills with growing IT presence."
+    },
+    {
+      "name": "Delhi",
+      "slug": "delhi",
+      "state": "Delhi",
+      "coordinates": {
+        "latitude": 28.7041,
+        "longitude": 77.1025
+      },
+      "population": "32941000",
+      "description": "National Capital Territory and major political, cultural, and commercial hub of India."
+    },
+    {
+      "name": "Mumbai",
+      "slug": "mumbai",
+      "state": "Maharashtra",
+      "coordinates": {
+        "latitude": 19.0760,
+        "longitude": 72.8777
+      },
+      "population": "20667000",
+      "description": "Financial capital of India, Bollywood hub, and major port city on the Arabian Sea coast."
+    },
+    {
+      "name": "Bangalore",
+      "slug": "bangalore",
+      "state": "Karnataka",
+      "coordinates": {
+        "latitude": 12.9716,
+        "longitude": 77.5946
+      },
+      "population": "13608000",
+      "description": "Silicon Valley of India, major IT and biotechnology hub with thriving startup ecosystem."
+    },
+    {
+      "name": "Chennai",
+      "slug": "chennai",
+      "state": "Tamil Nadu",
+      "coordinates": {
+        "latitude": 13.0827,
+        "longitude": 80.2707
+      },
+      "population": "11503000",
+      "description": "Detroit of South Asia, major automobile manufacturing hub and cultural capital of Tamil Nadu."
+    },
+    {
+      "name": "Hyderabad",
+      "slug": "hyderabad",
+      "state": "Telangana",
+      "coordinates": {
+        "latitude": 17.3850,
+        "longitude": 78.4867
+      },
+      "population": "10494000",
+      "description": "City of Pearls, major pharmaceutical and IT hub with rich Nizami heritage."
+    },
+    {
+      "name": "Pune",
+      "slug": "pune",
+      "state": "Maharashtra",
+      "coordinates": {
+        "latitude": 18.5204,
+        "longitude": 73.8567
+      },
+      "population": "7764000",
+      "description": "Oxford of the East, major educational hub and emerging IT destination near Mumbai."
+    },
+    {
+      "name": "Ahmedabad",
+      "slug": "ahmedabad",
+      "state": "Gujarat",
+      "coordinates": {
+        "latitude": 23.0225,
+        "longitude": 72.5714
+      },
+      "population": "8450228",
+      "description": "Manchester of Gujarat, major textile and chemical industrial center with UNESCO World Heritage sites."
+    },
+    {
+      "name": "Kolkata",
+      "slug": "kolkata",
+      "state": "West Bengal",
+      "coordinates": {
+        "latitude": 22.5726,
+        "longitude": 88.3639
+      },
+      "population": "15133000",
+      "description": "Cultural capital of India, major commercial and financial hub in Eastern India."
+    },
+    {
+      "name": "Jaipur",
+      "slug": "jaipur",
+      "state": "Rajasthan",
+      "coordinates": {
+        "latitude": 26.9124,
+        "longitude": 75.7873
+      },
+      "population": "3971000",
+      "description": "Pink City and capital of Rajasthan, major tourist destination and emerging IT hub."
+    },
+   
+    {
+      "name": "Indore",
+      "slug": "indore",
+      "state": "Madhya Pradesh",
+      "coordinates": {
+        "latitude": 22.7196,
+        "longitude": 75.8577
+      },
+      "population": "3276000",
+      "description": "Commercial capital of Madhya Pradesh, cleanest city in India with growing IT and education sectors."
+    },
+    {
+      "name": "Nagpur",
+      "slug": "nagpur",
+      "state": "Maharashtra",
+      "coordinates": {
+        "latitude": 21.1458,
+        "longitude": 79.0882
+      },
+      "population": "3038000",
+      "description": "Orange City and geographical center of India, major logistics and IT hub."
+    },
+    {
+      "name": "Coimbatore",
+      "slug": "coimbatore",
+      "state": "Tamil Nadu",
+      "coordinates": {
+        "latitude": 11.0168,
+        "longitude": 76.9558
+      },
+      "population": "2346000",
+      "description": "Manchester of South India, major textile and pump manufacturing industrial hub."
+    },
+    {
+      "name": "Kochi",
+      "slug": "kochi",
+      "state": "Kerala",
+      "coordinates": {
+        "latitude": 9.9312,
+        "longitude": 76.2673
+      },
+      "population": "2119000",
+      "description": "Queen of Arabian Sea, major port city and IT hub with rich trading history."
+    },
+    {
+      "name": "Visakhapatnam",
+      "slug": "visakhapatnam",
+      "state": "Andhra Pradesh",
+      "coordinates": {
+        "latitude": 17.6868,
+        "longitude": 83.2185
+      },
+      "population": "2176000",
+      "description": "City of Destiny, major port and industrial hub on the Bay of Bengal coast."
+    },
+    {
+      "name": "Vadodara",
+      "slug": "vadodara",
+      "state": "Gujarat",
+      "coordinates": {
+        "latitude": 22.3072,
+        "longitude": 73.1812
+      },
+      "population": "2065000",
+      "description": "Cultural capital of Gujarat, major petrochemical and pharmaceutical industrial center."
+    },
+    {
+      "name": "Rajkot",
+      "slug": "rajkot",
+      "state": "Gujarat",
+      "coordinates": {
+        "latitude": 22.3039,
+        "longitude": 70.8022
+      },
+      "population": "1749000",
+      "description": "Major educational and industrial hub in Saurashtra region, known for auto parts manufacturing."
+    },
+    {
+      "name": "Bhubaneswar",
+      "slug": "bhubaneswar",
+      "state": "Odisha",
+      "coordinates": {
+        "latitude": 20.2961,
+        "longitude": 85.8245
+      },
+      "population": "1034000",
+      "description": "Temple City of India, emerging IT and education hub with rich architectural heritage."
+    },
+    {
+      "name": "Ludhiana",
+      "slug": "ludhiana",
+      "state": "Punjab",
+      "coordinates": {
+        "latitude": 30.9010,
+        "longitude": 75.8573
+      },
+      "population": "1618000",
+      "description": "Industrial city and textile hub, known as Manchester of Punjab with strong SME sector."
+    },
+    {
+      "name": "Agra",
+      "slug": "agra",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 27.1767,
+        "longitude": 78.0081
+      },
+      "population": "1585704",
+      "description": "Home to the iconic Taj Mahal, Agra is a major tourist destination and commercial center."
+    },
+    {
+      "name": "Nashik",
+      "slug": "nashik",
+      "state": "Maharashtra",
+      "coordinates": {
+        "latitude": 19.9975,
+        "longitude": 73.7898
+      },
+      "population": "1695000",
+      "description": "Wine capital of India, ancient pilgrimage city and emerging automobile manufacturing hub."
+    },
+    {
+      "name": "Faridabad",
+      "slug": "faridabad",
+      "state": "Haryana",
+      "coordinates": {
+        "latitude": 28.4089,
+        "longitude": 77.3178
+      },
+      "population": "1404000",
+      "description": "Major industrial hub in NCR, largest producer of tractors and refrigerators in India."
+    },
+   
+    {
+      "name": "Ranchi",
+      "slug": "ranchi",
+      "state": "Jharkhand",
+      "coordinates": {
+        "latitude": 23.3441,
+        "longitude": 85.3096
+      },
+      "population": "1073427",
+      "description": "Capital of Jharkhand, emerging education and IT hub with rich tribal culture."
+    },
+    {
+      "name": "Raipur",
+      "slug": "raipur",
+      "state": "Chhattisgarh",
+      "coordinates": {
+        "latitude": 21.2514,
+        "longitude": 81.6296
+      },
+      "population": "1010000",
+      "description": "Capital of Chhattisgarh, major rice bowl and steel production center."
+    },
+    {
+      "name": "Jabalpur",
+      "slug": "jabalpur",
+      "state": "Madhya Pradesh",
+      "coordinates": {
+        "latitude": 23.1815,
+        "longitude": 79.9864
+      },
+      "population": "1267564",
+      "description": "Historical city and major educational hub, gateway to Madhya Pradesh."
+    },
+    {
+      "name": "Asansol",
+      "slug": "asansol",
+      "state": "West Bengal",
+      "coordinates": {
+        "latitude": 23.6739,
+        "longitude": 86.9524
+      },
+      "population": "1243008",
+      "description": "Second largest city in West Bengal, major coal mining and industrial center."
+    },
+    {
+      "name": "Varanasi",
+      "slug": "varanasi",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 25.3176,
+        "longitude": 82.9739
+      },
+      "population": "1198491",
+      "description": "One of the oldest living cities, spiritual capital of India on banks of Ganges."
+    },
+    {
+      "name": "Srinagar",
+      "slug": "srinagar",
+      "state": "Jammu and Kashmir",
+      "coordinates": {
+        "latitude": 34.0837,
+        "longitude": 74.7973
+      },
+      "population": "1273000",
+      "description": "Summer capital of J&K, famous for Dal Lake and emerging tourism and handicrafts hub."
+    },
+    {
+      "name": "Amritsar",
+      "slug": "amritsar",
+      "state": "Punjab",
+      "coordinates": {
+        "latitude": 31.6340,
+        "longitude": 74.8723
+      },
+      "population": "1183711",
+      "description": "Holy city of Sikhs, home to Golden Temple and major textile and food processing hub."
+    },
+    {
+      "name": "Patna",
+      "slug": "patna",
+      "state": "Bihar",
+      "coordinates": {
+        "latitude": 25.5941,
+        "longitude": 85.1376
+      },
+      "population": "2046652",
+      "description": "Capital city of Bihar with rich historical heritage and emerging IT sector."
+    },
+    {
+      "name": "Jamshedpur",
+      "slug": "jamshedpur",
+      "state": "Jharkhand",
+      "coordinates": {
+        "latitude": 22.8046,
+        "longitude": 86.2029
+      },
+      "population": "1339438",
+      "description": "Steel City of India, planned industrial town founded by Jamsetji Tata."
+    },
+    {
+      "name": "Dhanbad",
+      "slug": "dhanbad",
+      "state": "Jharkhand",
+      "coordinates": {
+        "latitude": 23.7957,
+        "longitude": 86.4304
+      },
+      "population": "1162000",
+      "description": "Coal capital of India, major mining and industrial center with rich mineral resources."
+    },
+    
+    {
+      "name": "Gwalior",
+      "slug": "gwalior",
+      "state": "Madhya Pradesh",
+      "coordinates": {
+        "latitude": 26.2183,
+        "longitude": 78.1828
+      },
+      "population": "1101981",
+      "description": "Historic city with magnificent fort, major railway junction and educational center."
+    },
+    {
+      "name": "Vijayawada",
+      "slug": "vijayawada",
+      "state": "Andhra Pradesh",
+      "coordinates": {
+        "latitude": 16.5062,
+        "longitude": 80.6480
+      },
+      "population": "1491000",
+      "description": "Business capital of Andhra Pradesh, major agricultural and educational hub."
+    },
+    {
+      "name": "Madurai",
+      "slug": "madurai",
+      "state": "Tamil Nadu",
+      "coordinates": {
+        "latitude": 9.9252,
+        "longitude": 78.1198
+      },
+      "population": "1470000",
+      "description": "Temple city and cultural capital of Tamil Nadu, one of oldest continuously inhabited cities."
+    },
+    {
+      "name": "Tiruchirappalli",
+      "slug": "tiruchirappalli",
+      "state": "Tamil Nadu",
+      "coordinates": {
+        "latitude": 10.7905,
+        "longitude": 78.7047
+      },
+      "population": "1022000",
+      "description": "Educational and industrial hub, major railway junction in central Tamil Nadu."
+    },
+    {
+      "name": "Salem",
+      "slug": "salem",
+      "state": "Tamil Nadu",
+      "coordinates": {
+        "latitude": 11.6643,
+        "longitude": 78.1460
+      },
+      "population": "1013000",
+      "description": "Major mango producing region and textile hub with rich steel industry."
+    },
+    {
+      "name": "Thiruvananthapuram",
+      "slug": "thiruvananthapuram",
+      "state": "Kerala",
+      "coordinates": {
+        "latitude": 8.5241,
+        "longitude": 76.9366
+      },
+      "population": "1687000",
+      "description": "Capital of Kerala, major IT and space research hub with beautiful beaches."
+    },
+    {
+      "name": "Mysore",
+      "slug": "mysore",
+      "state": "Karnataka",
+      "coordinates": {
+        "latitude": 12.2958,
+        "longitude": 76.6394
+      },
+      "population": "1014000",
+      "description": "City of Palaces, major tourism and silk production center with rich cultural heritage."
+    },
+    {
+      "name": "Hubli-Dharwad",
+      "slug": "hubli-dharwad",
+      "state": "Karnataka",
+      "coordinates": {
+        "latitude": 15.3647,
+        "longitude": 75.1240
+      },
+      "population": "1162000",
+      "description": "Twin city and commercial hub of North Karnataka, major cotton trading center."
+    },
+    {
+      "name": "Mangalore",
+      "slug": "mangalore",
+      "state": "Karnataka",
+      "coordinates": {
+        "latitude": 12.9141,
+        "longitude": 74.8560
+      },
+      "population": "623000",
+      "description": "Port city and major educational hub on Arabian Sea coast, gateway to Karnataka."
+    },
+    {
+      "name": "Guwahati",
+      "slug": "guwahati",
+      "state": "Assam",
+      "coordinates": {
+        "latitude": 26.1445,
+        "longitude": 91.7362
+      },
+      "population": "1116000",
+      "description": "Gateway to Northeast India, major educational and commercial hub in Assam."
+    },
+    {
+      "name": "Jalandhar",
+      "slug": "jalandhar",
+      "state": "Punjab",
+      "coordinates": {
+        "latitude": 31.3260,
+        "longitude": 75.5762
+      },
+      "population": "873000",
+      "description": "Sports capital of India, major leather and textile manufacturing hub."
+    },
+    {
+      "name": "Haridwar",
+      "slug": "haridwar",
+      "state": "Uttarakhand",
+      "coordinates": {
+        "latitude": 29.9457,
+        "longitude": 78.1642
+      },
+      "population": "310000",
+      "description": "Holy city and major Hindu pilgrimage site on banks of Ganges, Kumbh Mela host."
+    },
+    {
+      "name": "Shimla",
+      "slug": "shimla",
+      "state": "Himachal Pradesh",
+      "coordinates": {
+        "latitude": 31.1048,
+        "longitude": 77.1734
+      },
+      "population": "169000",
+      "description": "Former summer capital of British India, popular hill station and tourism hub."
+    },
+    {
+      "name": "Saharanpur",
+      "slug": "saharanpur",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 29.9680,
+        "longitude": 77.5552
+      },
+      "population": "705478",
+      "description": "Major wood carving and paper industry hub near Delhi."
+    },
+    {
+      "name": "Prayagraj",
+      "slug": "prayagraj",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 25.4358,
+        "longitude": 81.8463
+      },
+      "population": "1117094",
+      "description": "Ancient city at confluence of Ganges, Yamuna and Saraswati, hosts Kumbh Mela."
+    },
+  
+    {
+      "name": "Mathura",
+      "slug": "mathura",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 27.4924,
+        "longitude": 77.6737
+      },
+      "population": "441894",
+      "description": "Birthplace of Lord Krishna, major Hindu pilgrimage site with ancient temples."
+    },
+   
+    {
+      "name": "Noida",
+      "slug": "noida",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 28.5355,
+        "longitude": 77.3910
+      },
+      "population": "642381",
+      "description": "Major IT and electronics hub in NCR, home to numerous MNCs."
+    },
+    {
+      "name": "Greater Noida",
+      "slug": "greater-noida",
+      "state": "Uttar Pradesh",
+      "coordinates": {
+        "latitude": 28.4744,
+        "longitude": 77.5040
+      },
+      "population": "474000",
+      "description": "Emerging IT and manufacturing hub in NCR with world-class infrastructure."
+    },
+   
+    {
+      "name": "Bhiwadi",
+      "slug": "bhiwadi",
+      "state": "Rajasthan",
+      "coordinates": {
+        "latitude": 28.2134,
+        "longitude": 76.8428
+      },
+      "population": "130000",
+      "description": "Major industrial town in NCR region with hundreds of manufacturing units."
+    },
+    {
+      "name": "Rohtak",
+      "slug": "rohtak",
+      "state": "Haryana",
+      "coordinates": {
+        "latitude": 28.8955,
+        "longitude": 76.6066
+      },
+      "population": "421000",
+      "description": "Educational hub in Haryana with major institutions and growing IT presence."
+    },
+    {
+      "name": "Panipat",
+      "slug": "panipat",
+      "state": "Haryana",
+      "coordinates": {
+        "latitude": 29.3909,
+        "longitude": 76.9635
+      },
+      "population": "583000",
+      "description": "City of Weavers, major textile recycling hub and historical battlefield."
+    },
+    {
+      "name": "Karnal",
+      "slug": "karnal",
+      "state": "Haryana",
+      "coordinates": {
+        "latitude": 29.6857,
+        "longitude": 76.9905
+      },
+      "population": "534000",
+      "description": "Agricultural research hub and major food processing center in Haryana."
+    },
+    {
+      "name": "Sonipat",
+      "slug": "sonipat",
+      "state": "Haryana",
+      "coordinates": {
+        "latitude": 28.9931,
+        "longitude": 77.0151
+      },
+      "population": "544000",
+      "description": "Industrial city in NCR with major manufacturing and educational institutions."
+    },
+    {
+      "name": "Ujjain",
+      "slug": "ujjain",
+      "state": "Madhya Pradesh",
+      "coordinates": {
+        "latitude": 23.1765,
+        "longitude": 75.7885
+      },
+      "population": "515000",
+      "description": "Ancient city on banks of Shipra River, major Hindu pilgrimage site for Kumbh Mela."
+    },
+    {
+      "name": "Dubai",
+      "slug": "dubai",
+      "state": "Dubai",
+      "country": "UAE",
+      "coordinates": {
+        "latitude": 25.2048,
+        "longitude": 55.2708
+      },
+      "population": "3604000",
+      "description": "Major global business and tourism hub in UAE, known for modern architecture, luxury shopping, and growing technology sector."
+    }
+  ]
+}

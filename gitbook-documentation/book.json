@@ -1,0 +1,34 @@
+{
+  "title": "EifaSoft Technologies Documentation",
+  "description": "Comprehensive guides for software development, MLM solutions, blockchain, AI services, and more",
+  "author": "EifaSoft Technologies",
+  "language": "en",
+  "root": "./",
+  "structure": {
+    "readme": "README.md"
+  },
+  "plugins": [
+    "search",
+    "lunr",
+    "-search-pro",
+    "codeblock-disable-glossary",
+    "expandable-chapters",
+    "editlink",
+    "ga",
+    "richquotes",
+    "anchors",
+    "page-toc-button",
+    "favicon",
+    "custom-favicon"
+  ],
+  "pluginsConfig": {
+    "editlink": {
+      "base": "https://github.com/eifasoft-technologies/open-source-guides/tree/main/",
+      "label": "Edit This Page",
+      "multilingual": false
+    },
+    "ga": {
+      "token": "UA-XXXXX-X"
+    }
+  }
+}
