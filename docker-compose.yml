@@ -2,15 +2,36 @@ name: eifasoft-v2
 
 services:
   app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    image: node:22-alpine
     ports:
       - "3002:3000"
     environment:
       NODE_ENV: production
       HOSTNAME: 0.0.0.0
       PORT: 3000
+    volumes:
+      - app_data:/app
+    entrypoint: ["sh", "-c"]
+    command:
+      - |
+        set -e
+        if [ ! -f /app/server.js ]; then
+          echo "==> Cloning eifasoft-v2 from GitHub..."
+          apk add --no-cache git
+          rm -rf /tmp/repo
+          git clone --depth 1 https://github.com/Ifa-Imran/eifasoft-v2-public.git /tmp/repo
+          cp -a /tmp/repo/. /app/
+          rm -rf /tmp/repo
+          cd /app
+          echo "==> Installing dependencies..."
+          npm ci --frozen-lockfile
+          echo "==> Building Next.js app..."
+          npm run build
+          echo "==> Build complete!"
+        fi
+        echo "==> Starting server on port 3000..."
+        cd /app
+        exec node .next/standalone/server.js
     restart: unless-stopped
     networks:
       - kairo_network
@@ -21,6 +42,9 @@ services:
       - "traefik.http.routers.eifasoft.entrypoints=websecure"
       - "traefik.http.routers.eifasoft.tls.certresolver=letsencrypt"
       - "traefik.http.services.eifasoft.loadbalancer.server.port=3000"
+
+volumes:
+  app_data:
 
 networks:
   kairo_network:
