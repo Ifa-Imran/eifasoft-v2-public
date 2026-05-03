@@ -11,7 +11,7 @@ services:
       PORT: 3000
       NEXT_PUBLIC_GOOGLE_ANALYTICS_ID: G-Q0YNPGGFQ2
       ADMIN_API_KEY: Qwerty123@
-      MONGODB_URI: mongodb://localhost:27017/eifasoft
+      MONGODB_URI: mongodb://mongo:27017/eifasoft
     volumes:
       - app_data:/app
     entrypoint: ["sh", "-c"]
@@ -40,6 +40,8 @@ services:
         cd /app/.next/standalone
         exec node server.js
     restart: unless-stopped
+    depends_on:
+      - mongo
     networks:
       - kairo_network
     labels:
@@ -50,8 +52,17 @@ services:
       - "traefik.http.routers.eifasoft.tls.certresolver=letsencrypt"
       - "traefik.http.services.eifasoft.loadbalancer.server.port=3000"
 
+  mongo:
+    image: mongo:7
+    volumes:
+      - mongo_data:/data/db
+    restart: unless-stopped
+    networks:
+      - kairo_network
+
 volumes:
   app_data:
+  mongo_data:
 
 networks:
   kairo_network:
