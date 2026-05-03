@@ -30,6 +30,8 @@ services:
           npm ci --frozen-lockfile
           echo "==> Building Next.js app..."
           npm run build
+          echo "==> Copying static files to standalone output..."
+          cp -r .next/static .next/standalone/.next/
           echo "==> Build complete!"
         fi
         echo "==> Starting server on port 3000..."
