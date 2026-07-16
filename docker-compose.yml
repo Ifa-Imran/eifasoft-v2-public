@@ -42,20 +42,13 @@ services:
         exec node server.js
     restart: unless-stopped
     depends_on:
-      mongo:
-        condition: service_healthy
+      - mongo
     deploy:
       resources:
         limits:
           memory: 6G
         reservations:
           memory: 512M
-    healthcheck:
-      test: ["CMD-SHELL", "wget -q -O /dev/null http://localhost:3000 || exit 1"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 5m
     networks:
       - kairo_network
     labels:
